@@ -1,4 +1,12 @@
-<h2><a href="https://leetcode.com/problems/reverse-string-ii">Reverse String II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given a string <code>s</code> and an integer <code>k</code>, reverse the first <code>k</code> characters for every <code>2k</code> characters counting from the start of the string.</p>
+# 541. Reverse String II
+
+🟢 **Easy** &nbsp;|&nbsp; [View on LeetCode](https://leetcode.com/problems/reverse-string-ii/)
+
+**Topics:** Two Pointers, String
+
+---
+
+<p>Given a string <code>s</code> and an integer <code>k</code>, reverse the first <code>k</code> characters for every <code>2k</code> characters counting from the start of the string.</p>
 
 <p>If there are fewer than <code>k</code> characters left, reverse all of them. If there are less than <code>2k</code> but greater than or equal to <code>k</code> characters, then reverse the first <code>k</code> characters and leave the other as original.</p>
 
@@ -18,3 +26,8 @@
 	<li><code>s</code> consists of only lowercase English letters.</li>
 	<li><code>1 &lt;= k &lt;= 10<sup>4</sup></code></li>
 </ul>
+
+
+---
+
+**My Solution:** [541-Reverse-String-II.cpp](./541-Reverse-String-II.cpp)

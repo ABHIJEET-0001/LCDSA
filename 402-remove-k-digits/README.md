@@ -1,4 +1,12 @@
-<h2><a href="https://leetcode.com/problems/remove-k-digits">Remove K Digits</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given string num representing a non-negative integer <code>num</code>, and an integer <code>k</code>, return <em>the smallest possible integer after removing</em> <code>k</code> <em>digits from</em> <code>num</code>.</p>
+# 402. Remove K Digits
+
+🟡 **Medium** &nbsp;|&nbsp; [View on LeetCode](https://leetcode.com/problems/remove-k-digits/)
+
+**Topics:** String, Stack, Greedy, Monotonic Stack
+
+---
+
+<p>Given string num representing a non-negative integer <code>num</code>, and an integer <code>k</code>, return <em>the smallest possible integer after removing</em> <code>k</code> <em>digits from</em> <code>num</code>.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -33,3 +41,8 @@
 	<li><code>num</code> consists of only digits.</li>
 	<li><code>num</code> does not have any leading zeros except for the zero itself.</li>
 </ul>
+
+
+---
+
+**My Solution:** [402-Remove-K-Digits.cpp](./402-Remove-K-Digits.cpp)

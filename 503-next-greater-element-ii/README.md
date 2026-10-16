@@ -1,12 +1,4 @@
-# 503. Next Greater Element II
-
-🟡 **Medium** &nbsp;|&nbsp; [View on LeetCode](https://leetcode.com/problems/next-greater-element-ii/)
-
-**Topics:** Array, Stack, Monotonic Stack
-
----
-
-<p>Given a circular integer array <code>nums</code> (i.e., the next element of <code>nums[nums.length - 1]</code> is <code>nums[0]</code>), return <em>the <strong>next greater number</strong> for every element in</em> <code>nums</code>.</p>
+<h2><a href="https://leetcode.com/problems/next-greater-element-ii">Next Greater Element II</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a circular integer array <code>nums</code> (i.e., the next element of <code>nums[nums.length - 1]</code> is <code>nums[0]</code>), return <em>the <strong>next greater number</strong> for every element in</em> <code>nums</code>.</p>
 
 <p>The <strong>next greater number</strong> of a number <code>x</code> is the first greater number to its traversing-order next in the array, which means you could search circularly to find its next greater number. If it doesn&#39;t exist, return <code>-1</code> for this number.</p>
 
@@ -35,8 +27,3 @@ The second 1&#39;s next greater number needs to search circularly, which is also
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
 	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
-
-
----
-
-**My Solution:** [503-Next-Greater-Element-II.cpp](./503-Next-Greater-Element-II.cpp)

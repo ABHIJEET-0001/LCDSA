@@ -1,4 +1,12 @@
-<h2><a href="https://leetcode.com/problems/delete-node-in-a-bst">Delete Node in a BST</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return <em>the <strong>root node reference</strong> (possibly updated) of the BST</em>.</p>
+# 450. Delete Node in a BST
+
+🟡 **Medium** &nbsp;|&nbsp; [View on LeetCode](https://leetcode.com/problems/delete-node-in-a-bst/)
+
+**Topics:** Tree, Binary Search Tree, Binary Tree
+
+---
+
+<p>Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return <em>the <strong>root node reference</strong> (possibly updated) of the BST</em>.</p>
 
 <p>Basically, the deletion can be divided into two stages:</p>
 
@@ -47,3 +55,8 @@ Please notice that another valid answer is [5,2,6,null,4,null,7] and it&#39;s al
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you solve it with time complexity <code>O(height of tree)</code>?</p>
+
+
+---
+
+**My Solution:** [450-Delete-Node-in-a-BST.cpp](./450-Delete-Node-in-a-BST.cpp)

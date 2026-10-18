@@ -1,4 +1,12 @@
-<h2><a href="https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree">Lowest Common Ancestor of a Binary Search Tree</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.</p>
+# 235. Lowest Common Ancestor of a Binary Search Tree
+
+🟡 **Medium** &nbsp;|&nbsp; [View on LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+**Topics:** Tree, Depth-First Search, Binary Search Tree, Binary Tree, Binary Lifting, Lowest Common Ancestor
+
+---
+
+<p>Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.</p>
 
 <p>According to the <a href="https://en.wikipedia.org/wiki/Lowest_common_ancestor" target="_blank">definition of LCA on Wikipedia</a>: &ldquo;The lowest common ancestor is defined between two nodes <code>p</code> and <code>q</code> as the lowest node in <code>T</code> that has both <code>p</code> and <code>q</code> as descendants (where we allow <strong>a node to be a descendant of itself</strong>).&rdquo;</p>
 
@@ -36,3 +44,8 @@
 	<li><code>p != q</code></li>
 	<li><code>p</code> and <code>q</code> will exist in the BST.</li>
 </ul>
+
+
+---
+
+**My Solution:** [235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp](./235-Lowest-Common-Ancestor-of-a-Binary-Search-Tree.cpp)

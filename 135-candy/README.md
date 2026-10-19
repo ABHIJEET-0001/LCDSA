@@ -1,4 +1,12 @@
-<h2><a href="https://leetcode.com/problems/candy">Candy</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>There are <code>n</code> children standing in a line.</p>
+# 135. Candy
+
+🔴 **Hard** &nbsp;|&nbsp; [View on LeetCode](https://leetcode.com/problems/candy/)
+
+**Topics:** Array, Greedy
+
+---
+
+<p>There are <code>n</code> children standing in a line.</p>
 
 <p>Each child is assigned a rating value given in the integer array <code>ratings</code>.</p>
 
@@ -36,3 +44,8 @@ The third child gets 1 candy because it satisfies the above two conditions.
 	<li><code>1 &lt;= n == ratings.length &lt;= 5 * 10<sup>4</sup></code></li>
 	<li><code>0 &lt;= ratings[i] &lt;= 5 * 10<sup>4</sup></code></li>
 </ul>
+
+
+---
+
+**My Solution:** [135-Candy.cpp](./135-Candy.cpp)

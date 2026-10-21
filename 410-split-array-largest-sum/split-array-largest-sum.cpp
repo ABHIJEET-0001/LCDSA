@@ -1,22 +1,27 @@
+
 class Solution {
-public:
+private:
+    bool canSplit(vector<int>& nums, int k, long long limit) {
+        int subarrays = 1;
+        long long currentSum = 0;
 
-    bool canSplit(vector<int>& nums, int k, long long maxSum) {
-        int parts = 1;
-        long long sum = 0;
-
-        for (int x : nums) {
-            if (sum + x > maxSum) {
-                parts++;
-                sum = x;
+        for (int num : nums) {
+            if (currentSum + num <= limit) {
+                currentSum += num;
             } else {
-                sum += x;
+                subarrays++;
+                currentSum = num;
+            }
+
+            if (subarrays > k) {
+                return false;
             }
         }
 
-        return parts <= k;
+        return true;
     }
 
+public:
     int splitArray(vector<int>& nums, int k) {
         long long low = *max_element(nums.begin(), nums.end());
         long long high = accumulate(nums.begin(), nums.end(), 0LL);
@@ -25,12 +30,12 @@ public:
             long long mid = low + (high - low) / 2;
 
             if (canSplit(nums, k, mid)) {
-                high = mid;        // try smaller answer
+                high = mid;
             } else {
-                low = mid + 1;     // need bigger answer
+                low = mid + 1;
             }
         }
 
-        return low;
+        return (int)low;
     }
 };
